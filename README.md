@@ -1,2 +1,2 @@
 # MedStudio
-开始一个与医学图像处理相关的软件
+A software include deal with Image and  3D Mesh.
