@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="MedStudio">
+    <file>skin_image/OpenDicom.png</file>
+  </qresource>
+</RCC>

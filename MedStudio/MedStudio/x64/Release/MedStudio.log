@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/9/25 14:32:33。
+     1>项目“E:\MedStudio\MedStudio\MedStudio\MedStudio.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Rcc'ing ..\..\src\MedStudio.qrc...
+         Moc'ing MedStudio.h...
+         Uic'ing ..\..\SRC\MedStudio.ui...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_MedStudio.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_MedStudio.cpp, GeneratedFiles\Release\moc_MedStudio.cpp.
+       ClCompile:
+         F:\ThirdSoftware\Microsoft\VisualStudio2013\VC\bin\x86_amd64\CL.exe /c /I. /I.\GeneratedFiles /I.\GeneratedFiles\Release /ID:\Qt5.7\5.7\msvc2013_64\include /ID:\Qt5.7\5.7\msvc2013_64\include\QtCore /ID:\Qt5.7\5.7\msvc2013_64\include\QtGui /ID:\Qt5.7\5.7\msvc2013_64\include\QtWidgets /I..\..\SRC\ImageModule /I..\..\SRC\Stdafx /I"..\..\SDK\GDCM 2.6\include\gdcm-2.6" /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\..\SRC\main.cpp ..\..\SRC\MedStudio.cpp GeneratedFiles\Release\moc_MedStudio.cpp
+         main.cpp
+         MedStudio.cpp
+         moc_MedStudio.cpp
+         正在生成代码...
+         F:\ThirdSoftware\Microsoft\VisualStudio2013\VC\bin\x86_amd64\CL.exe /c /I. /I.\GeneratedFiles /I.\GeneratedFiles\Release /ID:\Qt5.7\5.7\msvc2013_64\include /ID:\Qt5.7\5.7\msvc2013_64\include\QtCore /ID:\Qt5.7\5.7\msvc2013_64\include\QtGui /ID:\Qt5.7\5.7\msvc2013_64\include\QtWidgets /I..\..\SRC\ImageModule /I..\..\SRC\Stdafx /I"..\..\SDK\GDCM 2.6\include\gdcm-2.6" /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_MedStudio.cpp
+         qrc_MedStudio.cpp
+       Link:
+         F:\ThirdSoftware\Microsoft\VisualStudio2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MedStudio\MedStudio\x64\Release\\MedStudio.exe" /NOLOGO /LIBPATH:D:\Qt5.7\5.7\msvc2013_64\lib /LIBPATH:"..\..\SDK\GDCM 2.6\lib" /LIBPATH:..\x64\Release qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib MedImageModule.lib MedStdafx.lib gdcmcharls.lib gdcmCommon.lib gdcmDICT.lib gdcmDSED.lib gdcmexpat.lib gdcmgetopt.lib gdcmIOD.lib gdcmjpeg8.lib gdcmjpeg12.lib gdcmjpeg16.lib gdcmmd5.lib gdcmMEXD.lib gdcmMSFF.lib gdcmopenjpeg.lib gdcmzlib.lib socketxx.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\MedStudio\MedStudio\x64\Release\MedStudio.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MedStudio\MedStudio\x64\Release\MedStudio.lib" /MACHINE:X64 x64\Release\main.obj
+         x64\Release\MedStudio.obj
+         x64\Release\qrc_MedStudio.obj
+         x64\Release\moc_MedStudio.obj
+         MedStudio.vcxproj -> E:\MedStudio\MedStudio\x64\Release\MedStudio.exe
+     1>已完成生成项目“E:\MedStudio\MedStudio\MedStudio\MedStudio.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.62

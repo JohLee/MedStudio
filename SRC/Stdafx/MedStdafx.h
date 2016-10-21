@@ -1,0 +1,11 @@
+#ifndef MEDSTDAFX_H
+#define MEDSTDAFX_H
+
+enum ToolId
+{
+	TOOL_OPENDICOM = 0,
+	TOOL_OPENJPG,
+	TOOL_OPENPNG
+};
+
+#endif //MEDSTDAFX_H
